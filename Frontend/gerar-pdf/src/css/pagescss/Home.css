@@ -1,0 +1,25 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center;     /* Centraliza os cards verticalmente */
+    flex-direction: column;  /* Alinha os cards em coluna */
+    height: 100vh;           /* Preenche a altura da viewport */
+    gap: 20px;               /* Espaçamento entre os cards */
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Largura dos cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  .card a{
+    text-decoration: none;
+
+  }
+  
